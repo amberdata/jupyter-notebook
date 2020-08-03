@@ -4,10 +4,10 @@ This is a list of available Jupyter notebooks, showcasing how to retrieve and ut
 
 ### Templates
 
-| Notebook                                                                      | Description                                |
-|-------------------------------------------------------------------------------|--------------------------------------------|
-| [MarketData](templates/Template%20Market%20Data.ipynb)                        | Starting notebook for market data          |
-| [Transaction Pagination](templates/Template%20Transaction%20Pagination.ipynb) | Starting template on how to use pagination |
+| Notebook                                                           | Description                                |
+|--------------------------------------------------------------------|--------------------------------------------|
+| [MarketData](templates/Market%20Data.ipynb)                        | Starting notebook for market data          |
+| [Transaction Pagination](templates/Transaction%20Pagination.ipynb) | Starting template on how to use pagination |
 
 
 ### Blockchain Data
