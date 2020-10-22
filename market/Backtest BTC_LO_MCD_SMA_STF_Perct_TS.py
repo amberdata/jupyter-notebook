@@ -81,7 +81,7 @@ def amberdata_ohlcv(exchange, symbol, startDate, endDate):
 def amberdata_stf(symbol, startDate, endDate):
     print('Retrieving STF between', startDate, ' and ', endDate)
     return amberdata(
-        "https://web3api.io/api/v2/market/metrics/" + symbol + "/valuations/historical",
+        "https://web3api.io/api/v2/market/metrics/" + symbol + "/historical/stock-to-flow",
         {"format": "csv", "timeFrame": "day", "startDate": startDate, "endDate": endDate},
         Amberdata_API_KEY
     )
@@ -233,7 +233,7 @@ cerebro.addstrategy(Strategy)
 # Read market and on-chain data into dataframe
 btc = to_pandas(amberdata_ohlcv("gdax", "btc_usd", start_date, end_date))
 btc_stf = to_pandas(amberdata_stf("btc", start_date, end_date))
-btc['stf'] = btc_stf['stockToFlow_price']
+btc['stf'] = btc_stf['price']
 
 # Feed Cerebro our data
 #cerebro.adddata(CustomPandas(dataname=btc, openinterest=None, stf2sd='stf2sd'))
