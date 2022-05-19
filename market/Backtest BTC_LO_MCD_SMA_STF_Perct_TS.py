@@ -2,6 +2,10 @@
 # IMPORTS
 # ======================================================================================================================
 
+# Requires MatPlotLib <= 3.2.2
+#   pip (or conda) uninstall matplotlib
+#   pip install matplotlib==3.2.2
+
 import backtrader as bt
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
