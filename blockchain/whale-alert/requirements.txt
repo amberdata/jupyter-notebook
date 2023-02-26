@@ -1,0 +1,8 @@
+###### Requirements without Version Specifiers ######
+asyncio
+websockets 
+json
+twilio
+math
+web3
+ens 
