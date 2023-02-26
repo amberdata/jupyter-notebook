@@ -20,6 +20,9 @@ Twilio: [Twilio API Setup](https://www.twilio.com/login).
     2. Verify the phone number you'd like to receive alerts. 
     3. Copy your Account SID & your Auth Token (🔒 don't share your auth token 	🔒)
     4. Click "Get A Trial Number". 
+    5. Authenticate your phone number on Twilio. 
+
+Questions on Twilio? Check out the [Docs](https://www.twilio.com/docs/sms)
 
 ## Usage
 
