@@ -27,6 +27,8 @@ This is a list of available Jupyter notebooks, showcasing how to retrieve and ut
 | [Analysis of Digital Assets for fun and profits](market/Analysis%20of%20Digital%20Assets%20for%20fun%20and%20profits.ipynb)           | Portfolio Management based on daily returns and Sharpe Ratio |
 | [Analysis of Digital Assets for fun and profits (2)](market/Analysis%20of%20Digital%20Assets%20for%20fun%20and%20profits%20(2).ipynb) | Portfolio allocation strategy based on Sharpe Ratio          |
 |                                                                                                                                       |                                                              |
+| [Cointegration Based Trading Strategy](market/Cointegration%20Based%20Crypto%20Pairs%20Trading%20Strategy.ipynb)                      | Trading Strategy based on finding co-integrated pairs        |
+|                                                                                                                                       |                                                              |
 | [Backtest Buy and Hold](market/Backtest%20Buy%20and%20Hold.py)                                                                        | Use Backtrader to test Buy & Hold strategy                   |
 | [Backtest BTC_LO_MCD_SMA_STF_Perct_TS](market/Backtest%20BTC_LO_MCD_SMA_STF_Perct_TS.py)                                              | Use Backtrader to test Stock To Flow strategy                |
 | [Backtest Archives](market/archive)                                                                                                   | Other backtesting strategies with Backtrader                 |
