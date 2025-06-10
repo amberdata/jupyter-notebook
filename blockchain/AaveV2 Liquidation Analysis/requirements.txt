@@ -9,7 +9,7 @@ plotly==5.22.0
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 pytz==2024.1
-requests==2.32.3
+requests==2.32.4
 six==1.16.0
 tenacity==8.4.2
 tzdata==2024.1
