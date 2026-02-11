@@ -4,7 +4,7 @@ idna==3.7
 numpy==2.0.0
 packaging==24.1
 pandas==2.2.2
-pillow==10.4.0
+pillow==12.1.1
 plotly==5.22.0
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
